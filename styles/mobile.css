@@ -139,10 +139,17 @@
   }
 
   .header__show > .header__button-cross {
-    display: block;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 80vh;
   }
 
   .scroll__lock {
     overflow: hidden;
+  }
+
+  .portrait__language-mobile > * {
+    writing-mode: sideways-rl;
   }
 }
