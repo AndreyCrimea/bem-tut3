@@ -66,7 +66,7 @@
   .portrait__img-wrapper {
     height: 387px;
 
-    background-image: url("/img/desktop/portrait__img.png");
+    background-image: url("img/desktop/portrait__img.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
