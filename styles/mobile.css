@@ -23,7 +23,7 @@
   .portrait__img-wrapper {
     margin-top: 37px;
 
-    background-image: url("/img/mobile/portrait__img.png");
+    background-image: url("img/mobile/portrait__img.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
