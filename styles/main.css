@@ -12,13 +12,13 @@
 
 @font-face {
   font-family: "Gilroy";
-  src: url("/fonts/Gilroy-Medium/Gilroy-Medium.ttf");
+  src: url("fonts/Gilroy-Medium/Gilroy-Medium.ttf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Gilroy";
-  src: url("/fonts/Gilroy-Medium/Gilroy-Bold.ttf");
+  src: url("fonts/Gilroy-Medium/Gilroy-Bold.ttf");
   font-weight: bold;
 }
 
