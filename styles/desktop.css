@@ -38,7 +38,8 @@
   }
 
   .portrait__language * {
-    writing-mode: sideways-lr;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
   }
 
   .portrait__language {

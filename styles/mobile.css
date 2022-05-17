@@ -150,6 +150,7 @@
   }
 
   .portrait__language-mobile > * {
-    writing-mode: sideways-rl;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
   }
 }
