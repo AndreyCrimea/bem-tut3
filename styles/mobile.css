@@ -1,0 +1,148 @@
+@media only screen and (max-width: 699px) {
+  .portrait__wrapper {
+    padding-top: 65px;
+  }
+
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__menu-button {
+    display: block;
+
+    padding: 13px 0;
+
+    cursor: pointer;
+  }
+
+  .portrait__about {
+    padding-top: 23px;
+  }
+
+  .portrait__img-wrapper {
+    margin-top: 37px;
+
+    background-image: url("/img/mobile/portrait__img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 478px;
+  }
+
+  .portrait__wrapper {
+    padding-bottom: 83px;
+  }
+
+  .about__wrapper {
+    padding-top: 81px;
+    padding-bottom: 76px;
+  }
+
+  .about__content {
+    padding-top: 30px;
+  }
+
+  .about__content {
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+  }
+
+  .skills__wrapper {
+    padding-top: 83px;
+    padding-bottom: 96px;
+  }
+
+  .skills__content {
+    padding-top: 50px;
+  }
+
+  .skills__programs {
+    padding-top: 70px;
+  }
+
+  .skills__programs {
+    flex-flow: column;
+    gap: 80px;
+  }
+
+  .portfolio__wrapper {
+    padding-top: 81px;
+    padding-bottom: 81px;
+  }
+
+  .portfolio__list {
+    padding-top: 65px;
+    gap: 78px;
+  }
+
+  .portfolio__link {
+    padding-top: 33px;
+  }
+
+  .contacts__wrapper {
+    padding-top: 82px;
+    padding-bottom: 90px;
+  }
+
+  .contacts__button-wrapper {
+    padding-top: 40px;
+  }
+
+  .contacts__links {
+    justify-content: space-between;
+  }
+
+  .contacts__content {
+    padding-top: 28px;
+  }
+
+  .contacts__links-wrapper {
+    padding-top: 48px;
+  }
+
+  .contacts__links-text {
+    padding-top: 48px;
+  }
+
+  .header__show {
+    box-sizing: border-box;
+
+    background-color: var(--white);
+
+    display: flex;
+    position: fixed;
+
+    top: 0px;
+    left: 0px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    justify-content: space-between;
+
+    height: 100vh;
+    width: 100%;
+
+    font-size: 34px;
+    line-height: 42px;
+
+    font-weight: bold;
+    padding-top: 40px;
+  }
+
+  .header__show > .header__links {
+    flex-flow: column;
+    padding-top: 7px;
+    gap: 40px;
+  }
+
+  .header__show > .header__button-cross {
+    display: block;
+  }
+
+  .scroll__lock {
+    overflow: hidden;
+  }
+}

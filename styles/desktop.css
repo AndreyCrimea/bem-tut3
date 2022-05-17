@@ -1,0 +1,146 @@
+@media only screen and (min-width: 700px) {
+  .container {
+    margin: 0 auto;
+
+    max-width: 943px;
+  }
+
+  .header__wrapper {
+    display: block;
+  }
+
+  .header__link {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+  }
+
+  .header__links {
+    justify-content: space-between;
+
+    padding: 32px 0;
+  }
+
+  .header__line {
+    display: block;
+    height: 1px;
+    background-color: var(--grey);
+  }
+
+  .portrait__language {
+    display: flex;
+    flex-flow: column;
+    flex-direction: column-reverse;
+
+    align-items: flex-end;
+
+    width: 75px;
+  }
+
+  .portrait__language * {
+    writing-mode: sideways-lr;
+  }
+
+  .portrait__language {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .portrait__text {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .portrait__item {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+  }
+
+  .portrait__item:not(:nth-child(1)) {
+    padding-bottom: 9px;
+  }
+
+  .portrait__img-wrapper {
+    height: 387px;
+
+    background-image: url("/img/desktop/portrait__img.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .portrait__wrapper {
+    padding-bottom: 104px;
+  }
+
+  .about__wrapper {
+    padding-top: 120px;
+    padding-bottom: 107px;
+  }
+
+  .about__content {
+    padding-top: 17px;
+
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+  }
+
+  .skills {
+    background-color: var(--white);
+  }
+
+  .skills__wrapper {
+    padding-top: 91px;
+    padding-bottom: 110px;
+  }
+
+  .skills__content {
+    padding-top: 69px;
+  }
+
+  .skills__programs {
+    padding-top: 83px;
+    justify-content: space-between;
+  }
+
+  .portfolio__wrapper {
+    padding-top: 112px;
+    padding-bottom: 96px;
+  }
+
+  .portfolio__list {
+    padding-top: 47px;
+    gap: 99px;
+  }
+
+  .portfolio__item {
+    gap: 45px;
+  }
+
+  .contacts__wrapper {
+    padding-top: 114px;
+    padding-bottom: 123px;
+  }
+
+  .contacts__links {
+    padding-top: 86px;
+    gap: 60px;
+    justify-content: stretch;
+  }
+
+  .contacts__links-text {
+    padding-top: 45px;
+  }
+
+  .contacts__button-wrapper {
+    padding-top: 29px;
+  }
+
+  .contacts__content {
+    padding-top: 20px;
+  }
+}
