@@ -12,13 +12,13 @@
 
 @font-face {
   font-family: "Gilroy";
-  src: url("/fonts/Gilroy-Medium/Gilroy-Medium.ttf");
+  src: url("fonts/Gilroy-Medium/Gilroy-Medium.ttf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Gilroy";
-  src: url("/fonts/Gilroy-Medium/Gilroy-Bold.ttf");
+  src: url("fonts/Gilroy-Medium/Gilroy-Bold.ttf");
   font-weight: bold;
 }
 
@@ -286,7 +286,7 @@ body {
   .portrait__img-wrapper {
     height: 387px;
 
-    background-image: url("/img/desktop/portrait__img.png");
+    background-image: url("img/desktop/portrait__img.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -390,7 +390,7 @@ body {
   .portrait__img-wrapper {
     margin-top: 37px;
 
-    background-image: url("/img/mobile/portrait__img.png");
+    background-image: url("img/mobile/portrait__img.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -513,5 +513,4 @@ body {
     overflow: hidden;
   }
 }
-
 
